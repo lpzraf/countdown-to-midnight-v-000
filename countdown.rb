@@ -11,8 +11,8 @@ end
 
 
 def countdown_with_sleep(number)
-  number = 5
-  while number < 5
+  number = 0
+  while number > 5
   number += 1
   number(0.5)
 end
